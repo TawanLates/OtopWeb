@@ -1,0 +1,66 @@
+.cartgird{
+    
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.cartgird form{
+    margin: auto;
+    padding: auto;
+    padding: 50px;
+    width: 60%;
+    /* border: 1px solid red;     */
+}
+.cartgird form .grid1{
+    
+    border-radius: 0.2rem;
+    border: 1px solid rgb(0, 0, 0);   
+    justify-content: center;
+    align-items: center;
+}
+.cartgird form img{
+    margin-top: 15px;
+    /* border: 1px solid red;     */
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.cartgird .grid1 p{
+    padding-right: 20px;
+    margin-top: -10px;
+    font-weight: bold;
+    /* border: 1px solid red;   */
+    height: 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: end;
+}
+.cartgird .grid1 h4{
+    margin-top: -20px;
+    font-weight: bold;
+    /* border: 1px solid red;   */
+    height: 2px;
+    text-align: center;
+}
+
+/* headercart */
+.carthead h1{
+    /* border: red 1px solid; */
+    text-align: center;
+    padding: 0;
+    margin: 30px;
+}
+.cartgird form button{
+    font-weight: bold;
+    margin-left: 90%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(76, 141, 238, 0.836);
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.cartgird form button:hover{
+    background-color: rgb(255, 34, 5, 0.836);
+}

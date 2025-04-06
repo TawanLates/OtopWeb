@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+*::-webkit-scrollbar{
+    width: 0px;
+    
+}
+body{
+    background-color: #112853ec;
+}
+h2{
+    padding: 30px;
+    -webkit-text-stroke: 0.5px black;
+}
+.headbarlog{
+    /* border: 1px solid red; */
+    
+    background: url(image/another/headerlogin.png);
+    background-position: center;
+    height: 250px;
+}
+form{
+    color: aliceblue;
+    /* border: 1px solid red; */
+    text-align: center;
+    height: auto;
+    padding-top: 50px;
+    height: 300px;
+}
+.input-group{
+    font-size: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: auto;
+    width: 300px;
+}
+.input-group input{
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    float: right;
+}
+.input-group button{
+    font-weight: bold;
+    margin-left: 100px;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(155, 206, 255, 0.685);
+    
+}
+.input-group button:hover{
+    background-color: rgb(204, 204, 204);
+}
+form a{
+    color: aliceblue;
+}

@@ -1,0 +1,37 @@
+.map iframe{
+    width: 100%;
+    height: 350px;
+}
+.contacttext{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+.contacttext p{
+    font-size: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.contacttext h2{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.social{
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    
+}
+.social .socialmo{
+    margin: 30px;
+    text-align: center;
+}
+.social .socialmo a{
+    /* border: 1px solid red; */
+    margin: 30px;
+}
+.contacttext .social a img{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: auto;
+}

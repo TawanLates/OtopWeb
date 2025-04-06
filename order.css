@@ -1,0 +1,76 @@
+.paymentmo{
+    text-align: center;
+}
+.paymentmo .headbank{
+    text-align: center;
+    padding-right: 320px;
+}
+.paymentmo .paymentgrid{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+.bank{
+    /* border: 1px solid red; */
+    width: 400px;
+}
+.bank .bankmo img{
+    /* border: 1px solid red; */
+    width: auto;
+    height: 120px;
+}
+.bank .bankmo{
+    padding: 30px;
+}
+.banktext{
+    /* border: 1px solid red; */
+    margin-right: 500px;
+    width: 500px;
+}
+.banktext h3{
+    font-weight: bold;
+}
+.banktext .hl{
+    font-weight: normal;
+}
+.total{
+    -webkit-text-stroke: 0.1px black;
+    /* border: 1px solid red; */
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.total p{
+    color: rgb(0, 0, 0);
+}
+
+.paymentpic{
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.paymentpic label{
+    font-size: 25px;
+}
+.paymentpic input{
+    width: 200px;
+    border-radius: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+.paymentpic button{
+    width: 90px;
+    border-radius: 2rem;
+    font-size: 18px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+.paymentpic button:hover{
+    color: aliceblue;
+    background-color: green;
+}

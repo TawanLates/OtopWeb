@@ -1,0 +1,88 @@
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+*::-webkit-scrollbar{
+    width: 10px;
+    
+}
+*::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.219); 
+    border-radius: 10px;
+    height: 5px;
+}
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+li{
+    list-style: none;
+}
+/* สไตล์สำหรับเนื้อหา Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    min-width: 300px;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -6%;
+    margin-top: 10px;
+    /* dropdown animetion-------------------------------------------- */
+    
+}
+/* สไตล์สำหรับลิงก์ใน Dropdown */
+li .dropdown-content a {
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* pagedown--------------------------------------------------- */
+
+.pagedown-content a:hover {
+    background-color: #ffffff;
+    
+}
+.pagedown:hover .pagedown-content {
+    display: block;
+    
+}
+li .pagedown-content a {
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    
+  
+}
+.pagedown-content{
+    
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+    min-width: 300px;
+    width: 100%;
+    margin-top: -1150px;
+    /* animetion ของเพจ */
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+/* animetion ของเพจ */
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

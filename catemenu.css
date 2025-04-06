@@ -1,0 +1,35 @@
+/* categoryshop */
+.catebar{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+}
+.catebar h3{
+    padding: 10px;
+    letter-spacing: 2px;
+    
+}
+.catebar1{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 180px;
+    
+}
+.catebar1 a{
+    
+    text-decoration: none;
+    color: black;
+}
+.catebar1 a:hover{
+    text-decoration: none;
+    color: rgb(115, 145, 243);
+    font-size: 18px;
+}
+
+.catebar2{
+    
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 10px;
+    width: 100%;
+}
+

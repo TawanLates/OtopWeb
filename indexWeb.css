@@ -1,0 +1,236 @@
+
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+ul li{
+    padding: 20px;
+}
+ul a{
+    
+    padding: 15px 0px 0px 0px;
+}
+.menubar{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 130px;
+    background-color: #DAE2E6;
+    align-items: center;
+}
+nav div .menubarmo{
+    letter-spacing: 0.2rem;
+    width: 100%;
+    display:flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red;  */
+}
+.menubarmo a{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 18px;
+    color:#1E3C72 ;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    margin: 8px 0 8px 0;
+    /* border: 1px solid red;  */
+}
+.menubarmo li a:after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right,#1E3C72,#ffffff);
+    height: 5px;
+    width: 0%;
+    left: 0%;
+    bottom: -5px;
+    border-radius: 25px;
+    transition: .6s;
+}
+.menubarmo a:hover:after {
+    width :100%;
+    opacity: 1;
+    
+}
+.dropdown-content a:hover{
+    height: 100%;
+    width: 100%;
+    color: #434343;
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+.logoimg{
+    /* border: 1px solid red; */
+    margin-left: 18%;
+}
+.logoimg img{
+    width: 180px;
+    
+    display: flex;
+}
+/* ตะกร้าสินค้า */
+.cart{
+    /* border: 1px solid red; */
+    margin-left: 15%;
+    padding-right: 15px;
+}
+.cart .cart1{
+    width: 50px;
+    /* border: 1px solid red; */
+}
+.cart .cart1 img{
+    /* border: 1px solid red; */
+    height: 40px;
+}
+.cart .cart1 img:hover{
+    
+    height: 50px;
+}
+
+
+
+/* ไอคอนผู้ใช้งาน */
+.usershow img{
+    height: 30px;
+    width: 30px;
+    
+}
+.menubarmo .usershow{
+    /* border: 1px solid red; */
+    height: 35px;
+    margin-left: auto;
+    display: flex;
+   
+}
+.menubarmo .usershow:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.usershow p{
+    
+    font-size: 20px;
+    margin: 5px;
+    
+}
+
+/* Sotre Header------------------------------------------------------------------------------ */
+.Scroll h2{
+    /* border: 1px solid rgb(255, 0, 0); */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.Scroll img{
+    /* border: 1px solid rgb(255, 0, 0); */
+    height: 50px;
+    width: 60px;
+    padding-top: -20px;
+    margin: auto;
+    padding: auto;
+}
+
+/* ข้อมูลหน้าแรก--------------------------------------------------------------------- */
+.promo{
+    /* border: 1px solid red; */
+    height: 550px;
+}
+.promo .promoback{
+    background-image: url(image/another/PROMOTION.png);
+    background-position: center;
+    /* border: 1px solid red; */
+    text-align: center;
+    width: auto;
+    height: 550px;
+}
+.promo .promoback .promotext{
+    /* border: 1px solid red; */
+    height: 500px;
+    
+    margin: 10px 0px;
+}
+.promo .promoback .promotext a button{
+    /* border: 1px solid red; */
+    border: 2px solid;
+    border-radius: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #85a9cc;
+    margin-top: 400px;
+    width: 120px;
+    height: 50px;
+    letter-spacing: 2px;
+}
+.promo .promoback .promotext a button:hover{
+    background-color: aliceblue;
+    
+}
+
+
+
+
+/* footer ----------------------------------------------------------------------------- */
+.foottext{
+    color: #ffffff;
+    background-color: #1E3C72;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px solid red; */
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.foottext .foottext1 h4{
+    /* border: 1px solid red; */
+    padding-top: 100px;
+}
+
+/* footmenu2 */
+.line2{
+    background-color: #000000a1;
+    margin-top: -15px;
+    width: 60px;
+    height: 5px;
+}
+.foottext .foottext2 .footmenu{
+    /* border: 1px solid red; */
+    padding: 0;
+    
+}
+.foottext .foottext2 li{
+    padding-left: 0;
+    padding-top: 15px;
+    /* border: 1px solid red; */
+}
+.foottext .foottext2 li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+.foottext .foottext2 li a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.foottext .foottext3 ul{
+    padding: 0;
+    /* border: 1px solid red; */
+}
+.foottext .foottext3 li{
+    padding: 0;
+    padding-top: 15px;
+    /* border: 1px solid red; */
+}
+.foottext .foottext3 li a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.foottext .foottext3 li a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
